@@ -27,7 +27,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/i18n/en.js",
+              "src/assets/i18n/es.js"
+            ]
           },
           "configurations": {
             "production": {
