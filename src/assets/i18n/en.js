@@ -1,5 +1,5 @@
 export const workingExperience=()=>{
-  `Work Experience
+ return  `Work Experience
 
 Java Microservice Developer (12/2022-06/2023)
 at Serbatic (Mutua Madrileña)
@@ -92,9 +92,9 @@ Java - XML - Librería Apache POI - Spring Boot-MyBatis- Spring Data JPA-Angular
 
 J2EE- JSF - Jersey - Javascript - XHTML y
 Twitter Bootstrap(CSS) – TestNG-REST.`
-}
+};
 export const learningTraining=()=>{
-  `Academic Background
+ return  `Academic Background
   • Google certificate: "Building Microservices with Spring Boot and Google Cloud Platform" (2020).
   • Incentive Training Course at IMFE (6-8/2017), Málaga
 - PHP
@@ -141,4 +141,4 @@ Internship as a programmer at Linkasoft after the Server and Web Page Administra
 
 
 
-}
+};

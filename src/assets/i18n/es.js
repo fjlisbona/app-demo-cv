@@ -1,5 +1,5 @@
 export const workingExperience=()=>{
-  `Experiencia laboral
+ return  `Experiencia laboral
 >Desarrollador Java Microservicios(12/2022-06/2023)
 en Serbatic( Mutua Madrileña)
 • Aumento de la cobertura de test en informes con la herramienta Jacoco y JUnit.
@@ -122,10 +122,10 @@ Lehmberg formación - Málaga
 Prácticas como programador en Linkasoft a partir del curso de Administrador de
 servidores y
 páginas web.(3 meses).
-Entorno de trabajo E-commerce con “Lekommerce”.`
-}
+Entorno de trabajo E-commerce con “Lekommerce”.`;
+};
 export const learningTraining=()=>{
-  `Preparación académica
+ return  `Preparación académica
   -Certificado Google :“Building Microservices with Spring Boot and Google Cloud
   Platform”(2020).
   -Curso formación incentivada IMFE(6-8/2017).Málaga
@@ -161,10 +161,10 @@ export const learningTraining=()=>{
   servidores y
   páginas web.(3 meses).
   Entorno de trabajo E-commerce con “Lekommerce”.
-`
+`;
 
 
 
 
 
-}
+};
