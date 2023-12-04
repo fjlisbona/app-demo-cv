@@ -176,12 +176,13 @@
 
   .terminal {
     position: relative;
-    width: 80%;
-    max-width: 600px;
+    width: auto;
+    max-width: 80%;
     border-radius: 6px;
     padding-top: 45px;
     margin-top: 8px;
-    overflow: hidden;
+    overflow: visible;
+
     background-color: rgb(15, 15, 16);
   }
 
@@ -205,6 +206,8 @@
     color: white;
     padding: 0 1rem 1rem;
     margin: 0;
+    word-wrap: break-word; /* Rompe palabras largas para ajustarlas */
+    white-space: pre-wrap;
   }
 
   .circle-link {
@@ -312,7 +315,7 @@
   <span>Welcome to my CV</span>
     <div class="spacer"></div>
 
-    <input type="text">
+
 </div>
 
 <div class="content" role="main">
@@ -391,7 +394,7 @@
   <div class="terminal" [ngSwitch]="selection.value">
       <pre *ngSwitchDefault>Hello everyone!</pre>
       <pre *ngSwitchCase="'learningTraining'">{{ learningTraining }}</pre>
-      <pre *ngSwitchCase="'pwa'">ng add @angular/pwa</pre>
+      <pre *ngSwitchCase="'techStack'">Grafico</pre>
       <pre *ngSwitchCase="'workingExperience'">{{workingExperience}}</pre>
       <pre *ngSwitchCase="'linkedin'">https://www.linkedin.com/in/francisco-javier-l</pre>
       <pre *ngSwitchCase="'email'">javierlisbona1@gmail.com</pre>
