@@ -203,7 +203,7 @@
 
   .terminal pre {
     font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-    color: white;
+    color: #f3f7f8;
     padding: 0 1rem 1rem;
     margin: 0;
     word-wrap: break-word; /* Rompe palabras largas para ajustarlas */
@@ -315,7 +315,7 @@
   <span>Welcome to my CV</span>
     <div class="spacer"></div>
     <!--Banderitas de idiomas-->
-    <a aria-label="Idioma" target="_blank" rel="noopener" (click)="changeLanguage()" title="idioma">
+    <a aria-label="Idioma" target="_blank" rel="noopener" (click)="changeLanguage()" title="Change Language">
       <img src="../assets/img/{{changeFlag()}}.png" width="40px" height="25px"/>
     </a>
 
@@ -397,9 +397,9 @@
 
   <!-- Terminal -->
   <div class="terminal" [ngSwitch]="selection.value" >
-      <pre *ngSwitchDefault>Hello everyone!</pre>
+      <pre *ngSwitchDefault></pre>
       <pre *ngSwitchCase="'learningTraining'">{{  displayLearningTraining() }}</pre>
-      <pre *ngSwitchCase="'techStack'">Grafico</pre>
+      <div *ngSwitchDefault ><canvas  #MyChart width="800" height="600">{{myChart}}</canvas></div>
       <pre *ngSwitchCase="'workingExperience'">{{ displayWorkingExperience() }}</pre>
       <pre *ngSwitchCase="'linkedin'">https://www.linkedin.com/in/francisco-javier-l</pre>
       <pre *ngSwitchCase="'email'">javierlisbona1@gmail.com</pre>
