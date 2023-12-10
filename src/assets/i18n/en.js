@@ -1,8 +1,7 @@
 export const workingExperience=()=>{
  return  `Work Experience
 
-Java Microservice Developer (12/2022-06/2023)
-at Serbatic (Mutua Madrileña)
+>Java Developer at Serbatic (Mutua Madrileña) (12/2022-06/2023).
 -Increased test coverage in reports using the Jacoco and JUnit testing tools.
 -Analyzed and implemented improvements in optimizing timeouts caused by specific queries, including form validation for the query.
 -Restructured and analyzed existing code and added new validation functionality.
@@ -11,8 +10,7 @@ at Serbatic (Mutua Madrileña)
 -Conducted method refactoring and code optimization with Java 11.
 REST - Spring web Flow-Java 11- Spring Boot-Apache Tiles- Scrum Agile-Git(GitFlow)-Jenkins-Sonar -Openshift-JSP-Taglibs -Jira-Jacoco-Junit5-Spring Tools Suite-HTML-CSS-SQL:DB2.
 
->Java Swing Developer( 01/2021- 30/11/2022)
-at Dedalus Group(DXC Technology).
+>Java Swing Developer at Dedalus Group(DXC Technology)( 01/2021- 30/11/2022).
 
 - Participated in version creation by developing requirements and resolving incidents for production environments of the company's product.
 - Created methods in Web Services.
@@ -22,8 +20,7 @@ at Dedalus Group(DXC Technology).
 - Conducted testing of tasks performed by other colleagues.
 Java Swing- Apache Ant -Oracle-Subversion-Jasper report.
 
->Full-Stack Developer( 10/2019-04/2020)
-at  TourDiez Travel
+>Full-Stack Developer at TourDiez Travel( 10/2019-04/2020)
 
 - Automated processes using Python, extracting data from Oracle and MySQL databases, and utilizing the Pandas library.
 - Developed new features and fixes in the application using Java, JSP, TagsLib, HTML, CSS, and JavaScript technologies.
@@ -35,8 +32,7 @@ at  TourDiez Travel
 
 JavaEE- Python-Oracle-Mysql-Git-Tomcat-Javascript-HTML-CSS
 
->Programador Java(12/2018-6/2019)
-at Grupo AL.
+> Java Developer at Grupo AL.(12/2018-6/2019)
 
 - Java function that sent a backup copy of a directory to an FTP server using the Apache Commons library.
 - Created and fixed reports using Crystal Reports and Ireport.
@@ -48,8 +44,7 @@ J2EE -JSF-Icefaces-Glassfish – Wildfly -JPA -MySql-Git-Crystal
 report-Jasper Report-Maven-HTML-CSS-Javascript.
 
 
->Java Developer (2/2018)
-at Lucatic.
+>Java Developer at Lucatic(2/2018).
 
 - Analysis of database field changes and their impact on the project.
 - Removal of fields or attributes and business logic in the controller part.
@@ -57,9 +52,7 @@ at Lucatic.
 Java-Spring-Jquery.
 
 
->  Java Developer(6 meses, 2016-2017)
-
-at Accenture – Málaga
+>  Java Developer at Accenture – Málaga(6 meses, 2016-2017)
 
 RACC
 
@@ -74,8 +67,7 @@ Java 8-PL SQL
 
 Weblogic-Spring Boot-Java 8-MongoDB-Jira-Scrum
 
->Programador Java en prácticas
-at Esail’s Solutions(4/2016-7/2016).Málaga
+>Java Developer Internship at Esail’s Solutions(4/2016-7/2016).Málaga
 
 -Creation of a management module,standalone Java application , that read data from XML files and provided data output in Excel files.
 -Project involving Spring Boot, MyBatis, and AngularJS.
